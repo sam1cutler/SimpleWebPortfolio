@@ -1,0 +1,5 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+  box-sizing: border-box;
+}
+
