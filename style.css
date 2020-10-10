@@ -11,6 +11,10 @@ header, footer {
   background-color: rgb(47, 64, 79);
 }
 
+h1 {
+  font-size: 72px;
+}
+
 /* want to have a different font and the inverse font/background color scheme for the main section */
 main {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,4 +41,12 @@ main p {
 /*don't want any top/right margin between the header/main/footer transitions*/
 .majorSections {
   margin: 0;
+}
+
+hr {
+  background-color: rgb(47, 64, 79);
+  height: 5px;
+    /* size style color */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
