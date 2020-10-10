@@ -1,18 +1,20 @@
-/* Set ALL HTML elements with border-box sizing */
+/* Set ALL HTML elements to have border-box sizing */
 * {
   box-sizing: border-box;
 }
 
+/* want to have the same font/color/background scheme for both the header and the footer*/
 header, footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  background-color: steelblue;
+  background-color: midnightblue;
   color: ghostwhite;
 }
 
+/* want to have the a different font and the inverse font/background color scheme for the main section */
 main {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: steelblue;
+  color: midnightblue;
   background-color: ghostwhite;
 }
 
@@ -26,7 +28,13 @@ main p {
   font-size: 18px;
 }
 
+/*want to keep text-containing elements in the middle of the web page*/
 .pageContainer {
   margin: 100px;
   padding: 100px;
+}
+
+/*don't want any top/right margin between the header/main/footer transitions*/
+.majorSections {
+  margin: 0;
 }
