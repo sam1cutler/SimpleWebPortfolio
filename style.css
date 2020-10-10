@@ -62,3 +62,9 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
+/* defining pseudo-classes */
+a:link    { color: blue;  }
+a:visited { color: deepskyblue;   }
+a:hover   { color: cornflowerblue; }
+a:active  { color: mediumslateblue;  }
