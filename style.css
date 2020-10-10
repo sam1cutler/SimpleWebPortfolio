@@ -30,7 +30,7 @@ main p {
 
 /*want to keep text-containing elements in the middle of the web page*/
 .pageContainer {
-  margin: 100px;
+  margin: 20px;
   padding: 100px;
 }
 
