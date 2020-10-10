@@ -32,13 +32,13 @@ main p {
   font-size: 18px;
 }
 
-/*want to keep text-containing elements in the middle of the web page*/
+/* keep text-containing elements in the middle of the web page */
 .pageContainer {
   margin: 0px;
   padding: 20px 150px;
 }
 
-/*don't want any top/right margin between the header/main/footer transitions*/
+/* don't want any top/bottom margin between the header/main/footer transitions */
 .majorSections {
   margin: 0;
 }
@@ -49,4 +49,11 @@ hr {
   border: 1px solid rgb(47, 64, 79);
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
