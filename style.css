@@ -26,6 +26,7 @@ main p {
   font-size: 18px;
 }
 
-.wrapper {
-  margin: 0px, 50px;
+.pageContainer {
+  margin: 20px;
+  padding: 20px;
 }
