@@ -7,15 +7,15 @@
 header, footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  background-color: blue;
-  color: red;
+  color: gainsboro;
+  background-color: rgb(47, 64, 79);
 }
 
-/* want to have the a different font and the inverse font/background color scheme for the main section */
+/* want to have a different font and the inverse font/background color scheme for the main section */
 main {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: midnightblue;
-  background-color: ghostwhite;
+  color: rgb(47, 64, 79);
+  background-color: gainsboro;
 }
 
 main h2 {
@@ -30,8 +30,8 @@ main p {
 
 /*want to keep text-containing elements in the middle of the web page*/
 .pageContainer {
-  margin: 20px;
-  padding: 100px;
+  margin: 0px;
+  padding: 20px 100px;
 }
 
 /*don't want any top/right margin between the header/main/footer transitions*/
