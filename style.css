@@ -35,7 +35,7 @@ main p {
 /*want to keep text-containing elements in the middle of the web page*/
 .pageContainer {
   margin: 0px;
-  padding: 20px 100px;
+  padding: 20px 150px;
 }
 
 /*don't want any top/right margin between the header/main/footer transitions*/
