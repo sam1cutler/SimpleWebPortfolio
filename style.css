@@ -32,6 +32,11 @@ main p {
   font-size: 18px;
 }
 
+main ul {
+  text-align: left;
+  font-size: 18px;
+}
+
 /* keep text-containing elements in the middle of the web page */
 .pageContainer {
   margin: 0px;
